@@ -33,7 +33,6 @@ public class TestBase {
 
 	public static ExtentTest test;
 	protected static ExtentReports report;
-
 	protected static WebDriver driver;
 	public static Properties envConfig;
 	WebDriverWait wait;
@@ -58,28 +57,19 @@ public class TestBase {
 		} else {
 			throw new RuntimeException("Browser type unsupported");
 		}
-
 		// Setting implicit wait
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
 		driver.manage().window().maximize();
-
 		// Setting WebDriverWait with max timeout value of 20 seconds
 		wait = new WebDriverWait(driver, 20);
-
 		// Environment specific properties file loading
 		InputStream configFile = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\com\\qa\\properties\\" + "test.properties");
 		envConfig = new Properties();
 		envConfig.load(configFile);
-		
 		FileUtils.cleanDirectory(new File(System.getProperty("user.dir") + "\\report")); 
-		
 		report = new ExtentReports(System.getProperty("user.dir") + "\\report\\ExtentReportResults.html");
-
 	}
-
-	
 
 	@AfterMethod
 	public void screenshotAndDeleteCookies(ITestResult testResult) throws IOException {
@@ -101,6 +91,19 @@ public class TestBase {
 		String[][] testData = ExcelUtil.getExcelDataIn2DArray("src//main//resources//testData//TestData.xlsx", "search");
 		return testData;
 	}
+	
+	/*
+	 * @DataProvider(name = "tempTestData1") public Object[][] tempTestData1(int
+	 * index) throws Exception {
+	 * 
+	 * System.out.println("INDEX" + index);
+	 * 
+	 * String[][] testData = ExcelUtil.getExcelDataIn2DArray(
+	 * "src//main//resources//testData//TestData.xlsx", "search");
+	 * 
+	 * return testData; }
+	 */
+	
 
 	public static String capture(WebDriver driver) throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

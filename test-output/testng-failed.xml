@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.googleSearch">
+      <class name="com.qa.test.OppenheimerTest">
         <methods>
+          <include name="insertSingleRecord"/>
+          <include name="loadBaseUrl"/>
           <include name="screenshotAndDeleteCookies"/>
           <include name="suiteTearDown"/>
           <include name="suiteSetup"/>
-          <include name="loadBaseUrl"/>
-          <include name="f"/>
         </methods>
-      </class> <!-- com.qa.test.googleSearch -->
+      </class> <!-- com.qa.test.OppenheimerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

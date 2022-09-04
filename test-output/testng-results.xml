@@ -1,173 +1,399 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-03T16:15:48 IST" name="Default suite" finished-at="2022-09-03T16:16:41 IST" duration-ms="52746">
+  <suite started-at="2022-09-04T14:01:12 IST" name="Default suite" finished-at="2022-09-04T14:01:12 IST" duration-ms="641">
     <groups>
     </groups>
-    <test started-at="2022-09-03T16:15:48 IST" name="Default test" finished-at="2022-09-03T16:16:41 IST" duration-ms="52746">
-      <class name="com.qa.test.googleSearch">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:47 IST" name="suiteSetup" finished-at="2022-09-03T16:15:48 IST" duration-ms="1647" status="PASS">
+    <test started-at="2022-09-04T14:01:12 IST" name="Default test" finished-at="2022-09-04T14:01:12 IST" duration-ms="641">
+      <class name="com.qa.test.OppenheimerTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:10 IST" name="suiteSetup" finished-at="2022-09-04T14:01:12 IST" duration-ms="1992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:49 IST" name="loadBaseUrl" finished-at="2022-09-03T16:15:51 IST" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@6f5bd362]]>
+                <![CDATA[[Ljava.lang.Object;@6fc1020a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:51 IST" name="f" data-provider="tempTestData" finished-at="2022-09-03T16:15:54 IST" duration-ms="2649" status="PASS">
+        <test-method signature="insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertMultipleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[aaa]]>
+                <![CDATA[TC1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[aaa]]>
+                <![CDATA[N01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Magesh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:54 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-03T16:15:54 IST" duration-ms="134" status="PASS">
+        </test-method> <!-- insertMultipleRecord -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=f status=SUCCESS method=googleSearch.f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc] output={null}]]]>
+                <![CDATA[[TestResult name=insertMultipleRecord status=SUCCESS method=OppenheimerTest.insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:54 IST" name="loadBaseUrl" finished-at="2022-09-03T16:15:56 IST" duration-ms="1797" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3a401749]]>
+                <![CDATA[[Ljava.lang.Object;@5762658b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:15:56 IST" name="f" data-provider="tempTestData" finished-at="2022-09-03T16:16:10 IST" duration-ms="13593" status="PASS">
+        <test-method signature="insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertMultipleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[girinath]]>
+                <![CDATA[TC2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[sss]]>
+                <![CDATA[N02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:10 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-03T16:16:10 IST" duration-ms="37" status="PASS">
+        </test-method> <!-- insertMultipleRecord -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="30" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=f status=SUCCESS method=googleSearch.f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc] output={null}]]]>
+                <![CDATA[[TestResult name=insertMultipleRecord status=SUCCESS method=OppenheimerTest.insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:10 IST" name="loadBaseUrl" finished-at="2022-09-03T16:16:12 IST" duration-ms="1818" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@7793ad58]]>
+                <![CDATA[[Ljava.lang.Object;@2629d5dc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:12 IST" name="f" data-provider="tempTestData" finished-at="2022-09-03T16:16:26 IST" duration-ms="14447" status="PASS">
+        <test-method signature="insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertMultipleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[magesn]]>
+                <![CDATA[TC2]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[vvv]]>
+                <![CDATA[N03]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rakki]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:26 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-03T16:16:26 IST" duration-ms="33" status="PASS">
+        </test-method> <!-- insertMultipleRecord -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=f status=SUCCESS method=googleSearch.f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc] output={null}]]]>
+                <![CDATA[[TestResult name=insertMultipleRecord status=SUCCESS method=OppenheimerTest.insertMultipleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:26 IST" name="loadBaseUrl" finished-at="2022-09-03T16:16:28 IST" duration-ms="2022" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@27e2287c]]>
+                <![CDATA[[Ljava.lang.Object;@2596d7f4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:28 IST" name="f" data-provider="tempTestData" finished-at="2022-09-03T16:16:41 IST" duration-ms="13052" status="PASS">
+        <test-method signature="insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertSingleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chennai]]>
+                <![CDATA[TC1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ddd]]>
+                <![CDATA[N01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Magesh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:41 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-03T16:16:41 IST" duration-ms="32" status="PASS">
+        </test-method> <!-- insertSingleRecord -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=f status=SUCCESS method=googleSearch.f(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.googleSearch@22e357dc] output={null}]]]>
+                <![CDATA[[TestResult name=insertSingleRecord status=SUCCESS method=OppenheimerTest.insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.qa.test.googleSearch@22e357dc]" started-at="2022-09-03T16:16:41 IST" name="suiteTearDown" finished-at="2022-09-03T16:16:42 IST" duration-ms="587" status="PASS">
+        <test-method signature="insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertSingleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSingleRecord -->
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@42a0501e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=insertSingleRecord status=SUCCESS method=OppenheimerTest.insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="loadBaseUrl([Ljava.lang.Object;)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="loadBaseUrl" finished-at="2022-09-04T14:01:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6aa3bfc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method signature="insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="insertSingleRecord" data-provider="tempTestData" finished-at="2022-09-04T14:01:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N03]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rakki]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7071989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertSingleRecord -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="screenshotAndDeleteCookies" finished-at="2022-09-04T14:01:12 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=insertSingleRecord status=SUCCESS method=OppenheimerTest.insertSingleRecord(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.qa.test.OppenheimerTest@3e84448c]" started-at="2022-09-04T14:01:12 IST" name="suiteTearDown" finished-at="2022-09-04T14:01:13 IST" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
-      </class> <!-- com.qa.test.googleSearch -->
+      </class> <!-- com.qa.test.OppenheimerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

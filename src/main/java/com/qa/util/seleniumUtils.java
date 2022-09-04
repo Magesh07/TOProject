@@ -56,9 +56,7 @@ public class seleniumUtils extends TestBase {
 
 		// Setting implicit wait
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
 		driver.manage().window().maximize();
-
 		// Setting WebDriverWait with max timeout value of 20 seconds
 		wait = new WebDriverWait(driver, 20);
 
